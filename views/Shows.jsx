@@ -3,8 +3,9 @@ import React from 'react'
 function Show(props) {
     return (
         <div>
-            <h1>Show View</h1>
-            <p>{props.result.title} </p> 
+            <h1>Log View</h1>
+            <h3>{props.result.title} </h3> <br />
+            <p>{props.result.entry}</p>
             <p><strong>{props.result.shipIsBroken ? 'is broken' : 'is NOT broken'}</strong></p>
 
             <a href="/logs">Back</a>
